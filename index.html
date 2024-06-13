@@ -23,17 +23,19 @@
             </nav>
         </header>
         <div class="options">
-            <a id="CEP" href="#"><i class="bi bi-geo-alt"></i>Informe o CEP</a>
+            <img class="logOp" src="assets/imagens/logo.png">
             <ul class="op">
-                <li><a href="#">Mais Opcoes</a></li>
+                <a id="CEP" href="#"><i class="bi bi-geo-alt"></i>Informe o CEP</a>
+                <li><a href="#">Escolha</a></li>
                 <li><a href="#">Cupons</a></li>
                 <li><a href="#">Masculino</a></li>
                 <li><a href="#">Feminino</a></li>
             </ul>
+            <img class="logOp" src="assets/imagens/48e42fba70becce83a35fd88be6d589f-icone-de-servico-de-rodada-de-compras.webp">
         </div>
         <h1>Produtos</h1>
-        <article>
-            <main>
+        <main>
+            <article>
                 <div class="conteiner">
                     <img
                         src="assets/imagens/Chuteira Futsal Adidas X Crazy 23 Club.webp"
@@ -43,16 +45,18 @@
                         <strong>R$ 268,59</strong> no pix <br />ou R$ 280,59 em
                         até 7x sem juros
                     </p>
+                    <button class="ButAdd" id="ChutBut">adicionar ao carrinho</button>
                 </div>
                 <div class="conteiner">
                     <img
                         src="assets/imagens/Tenis Adidas Breaknet Masculino.webp"
                     />
-                    <h3>Tenis Adidas Breaknet Masculino</h3>
+                    <h3>Tenis Adidas Breaknet Masculino Braco</h3>
                     <p>
                         <strong>R$ 199,59</strong> no pix <br />ou R$ 219,59 em
                         até 7x sem juros
                     </p>
+                    <button class="ButAdd" id="TenBut">adicionar ao carrinho</button>
                 </div>
                 <div class="conteiner">
                     <img
@@ -63,16 +67,18 @@
                         <strong>R$ 139,59</strong> no pix <br />ou R$ 150,59 em
                         até 7x sem juros
                     </p>
+                    <button class="ButAdd" id="MolBut">adicionar ao carrinho</button>
                 </div>
                 <div class="conteiner">
                     <img
                         src="assets/imagens/Calça Nike Sportswear Club Fleece.webp"
                     />
-                    <h3>Calça Nike Sportswear Club Fleece</h3>
+                    <h3>Calça Nike Sportswear Club Fleece Azul</h3>
                     <p>
                         <strong>R$ 170,99</strong> à vista <br />ou 3x de R$
                         60,00
                     </p>
+                    <button class="ButAdd" id="CalcBut">adicionar ao carrinho</button>
                 </div>
                 <div class="conteiner">
                     <img
@@ -80,9 +86,10 @@
                     />
                     <h3>Kit 4 Camisetas Básicas Colors Reserva</h3>
                     <p>
-                        <strong>R$ 288,59</strong> à vista <br />ou 6x de R$
+                        <strong>R$ 150,59</strong> à vista <br />ou 3x de R$
                         56,50
                     </p>
+                    <button class="ButAdd" id="CamBut">adicionar ao carrinho</button>
                 </div>
                 <div class="conteiner">
                     <img
@@ -92,8 +99,27 @@
                         Bicicleta Aro 20 Infantil Bmx Cross Roda Lateral Tridal
                     </h3>
                     <p><strong>R$ 620,91</strong> <br />ou 12x de R$51,74</p>
+                    <button class="ButAdd" id="BikeBut">adicionar ao carrinho</button>
                 </div>
-            </main>
-        </article>
+            </article>
+            <div class="carrinho">
+                <h2><a href="#"><i class="bi bi-cart4"></i> CARRINHO</a></h2>
+
+                <div class="infoCar">
+                    <img src="assets/imagens/Chuteira Futsal Adidas X Crazy 23 Club.webp" id="imgCar">
+                    <p>Chuteira Futsal Adidas X Crazy 23 Club</p>
+                    <p id="preco"> R$ 268,59</p>
+                    <input type="number" name="quant" id="quant"> 
+                    <button id="remove">Remover</button>
+                </div>
+                <div class="infoCar">
+                    <img src="assets/imagens/Kit 4 Camisetas Básicas Colors Reserva.webp" id="imgCar">
+                    <p>Kit 4 Camisetas Básicas Colors Reserva</p>
+                    <p id="preco">R$ 159,59</p>
+                    <input type="number" name="quant" id="quant"> 
+                    <button id="remove">Remover</button>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
