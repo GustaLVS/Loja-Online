@@ -138,6 +138,7 @@ button:hover {
 }
 h2 {
     font-size: 14pt;
+    text-align: center;
 }
 .carrinho a {
     color: #202022;
@@ -175,8 +176,10 @@ h2 {
 .total {
     display: flex;
     justify-content: end;
-    padding-top: 10px;
+    padding-right: 12px;
     gap: 10px;
+    font-size: 18pt;
+    font-weight: bold;
 }
 .tot {
     color: red;
