@@ -1,4 +1,4 @@
-Carrinho de Compras - README
+
 Este projeto consiste em uma aplicação simples de uma loja virtual, onde os usuários podem visualizar produtos e adicioná-los a um carrinho de compras. O carrinho de compras permite visualizar os produtos adicionados, sua quantidade e calcular o total da compra.
 
 Funcionalidades
